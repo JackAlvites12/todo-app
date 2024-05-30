@@ -6,7 +6,7 @@ import { TodoContext } from "../context/TodoContext"
 
 export const TodoAddForm = () => {
 
-  const { todos, onNewTodo, onDeleteAllTodos } = useContext( TodoContext )
+  const { todos, onNewTodo } = useContext( TodoContext )
 
   
   const { description, onInputChange, onResetForm } = useForm({
